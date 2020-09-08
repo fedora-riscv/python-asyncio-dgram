@@ -2,7 +2,7 @@
 %global mod_name asyncio_dgram
 
 Name:           python-%{pypi_name}
-Version:        1.1.0
+Version:        1.1.1
 Release:        1%{?dist}
 Summary:        Higher level Datagram support for Asyncio
 
@@ -52,5 +52,8 @@ rm -rf %{pypi_name}.egg-info
 %{python3_sitelib}/%{mod_name}-%{version}-py%{python3_version}.egg-info/
 
 %changelog
+* Tue Sep 08 2020 Fabian Affolter <mail@fabian-affolter.ch> - 1.1.1-1
+- Update to latest upstream release 1.1.1
+
 * Fri Sep 04 2020 Fabian Affolter <mail@fabian-affolter.ch> - 1.1.0-1
 - Initial package for Fedora
