@@ -3,7 +3,7 @@
 
 Name:           python-%{pypi_name}
 Version:        1.1.1
-Release:        6%{?dist}
+Release:        7%{?dist}
 Summary:        Higher level Datagram support for Asyncio
 
 License:        MIT
@@ -52,6 +52,9 @@ rm -rf %{pypi_name}.egg-info
 %{python3_sitelib}/%{mod_name}-%{version}-py%{python3_version}.egg-info/
 
 %changelog
+* Fri Jul 22 2022 Fedora Release Engineering <releng@fedoraproject.org> - 1.1.1-7
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_37_Mass_Rebuild
+
 * Mon Jun 13 2022 Python Maint <python-maint@redhat.com> - 1.1.1-6
 - Rebuilt for Python 3.11
 
